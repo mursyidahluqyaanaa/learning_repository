@@ -7,4 +7,16 @@ body {
 button {
     font-size: 20px;
     padding: 10px 20px;
+
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: skyblue;
+  transition: transform 0.3s;
+}
+
+.box:hover {
+  transform: scale(1.2);
 }
